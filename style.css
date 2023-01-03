@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(6, 28, 53);
+}
+
+.hero{
+    margin-top: 150px;
+    color: aliceblue;
+}
+
+.Search{
+    padding: auto;
+    display: inline-flex;
+    padding: 0 50px;
+}
+
+.search{
+    display: inline-flex;
+    justify-content: center;
+    width: 60%;
+}
+
+/* .contain{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+} */
+
+
+
+
+
+
+
+/* Result Page */
+.search-res{
+    margin-top: 145px;
+    padding-left: 40px;
+}
