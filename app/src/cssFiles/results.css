@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    background: linear-gradient(90.61deg, #161744 2.57%, rgba(0, 0, 0, 0) 97.11%), #226C90;
+    
+}
+.lognavbar{
+    display:flex;
+    justify-content: space-between;
+}
+
+.brandLogo{
+    background-image: url("../components/Group3.png");
+    width:400px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: -66px;
+}
+.resultsContainer{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.searchResultButtonDiv{
+    display: block;
+    width: 300px;
+    padding: 16px;
+    text-align: center;
+    background: #1A2041;
+    border-radius: 55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    margin-right: 20px;
+}
+
+.searchResultText{
+    font-size: 25px;
+    color: white;
+}
+.timeRequired{
+    margin-left: 20px;
+}
+.searchResult{
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.fullContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.charts{
+    width: 1200px;
+}
+.netSentiment{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 30px;
+    /* width: 900px; */
+    width: 100%;
+}
+
+.sentimentBlockText{
+    display: block;
+    height: 30px;
+    /* width: px; */
+    background: rgba(0, 0, 0, 0.15);
+    padding: 22px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.chart{
+    display: inline;
+    margin: 10px;
+    color: white;
+}
+.chartMain{
+    background: rgba(34, 57, 95, 0.8);
+    padding: 10px;
+}
+.pieChart{
+
+}
+
+.articleSection{
+    width: 90%;
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    /* width: 900px; */
+    width: 90%;
+}
+
+.eachArticle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.positive{
+    background-color: #45D792;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    padding: 0 17px;
+}
+.neutral{
+    background-color: #F6E63C;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    padding: 0 17px;
+}
+.negative{
+    background-color: #DB4276;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    padding: 0 17px;
+}
+.readArticle{
+    border-radius: 11px;
+    padding: 0px 9px;
+    background-color: #1A2041;
+    color: white;
+    
+}
